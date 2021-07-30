@@ -168,3 +168,11 @@ header, .navbar{
     font-size: 26px;
     margin-top: 20px;
 }
+
+.card{
+    margin-bottom: 30px;
+}
+
+.card-body{
+    text-align: center;
+}
