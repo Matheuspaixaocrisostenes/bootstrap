@@ -154,7 +154,7 @@ $( document ).ready(function() {
     let aboutSection = $('#about-area');
     let servicesSection = $('#services-area');
     let teamSection = $('#team-area');
-    let portfolioSection = $('#portfolio-area');
+    let portfolioSection = $('#portifolio-area');
     let contactSection = $('#contact-area');
   
     let scrollTo = '';
@@ -178,8 +178,8 @@ $( document ).ready(function() {
       }
   
       $([document.documentElement, document.body]).animate({
-          scrollTop: $(scrollTo).offset().top - 70
-      }, 1500);
+          scrollTop: $(scrollTo).offset().top - 90
+      }, 1000);
     });
   
   });
